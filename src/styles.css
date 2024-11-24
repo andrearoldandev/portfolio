@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'montserrat';
+  src: url(../public/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+  /*BACKGROUND*/
+  --fondo-primario-gradiente: linear-gradient(0deg, #5000ca 0%, #000000 100%);
+  --fondo-primario: #5000ca;
+
+  /*COLOR TIPOGRAFIA*/
+  --color-texto-primario: #ffffff;
+
+  /*TIPOGRAFIA*/
+  --fuente-primaria: 'montserrat', sans-serif;
+
+  /*TAMANIO TIPOGRAFIA*/
+  --tamanio-fuente-base: 18px;
+    /*para el h1 usaré calc()*2.5*/
+}

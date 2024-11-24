@@ -1,0 +1,25 @@
+/* HEADER */
+header{
+  font-family: var(--fuente-primaria);
+}
+/* NAVBAR */
+.bg-primary {
+  background: var(--fondo-primario-gradiente) !important;
+}
+
+.navbar-brand{
+  font-size: calc(var(--tamanio-fuente-base)*2);
+}
+
+.nav-link{
+  font-size: calc(var(--tamanio-fuente-base)*1.2);
+}
+/* BANNER */
+.banner {
+  height: 30%;
+  background-color: var(--fondo-primario);
+}
+
+h1{
+  margin: 0;
+}
